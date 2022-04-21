@@ -37,8 +37,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [https://github.com/kowai-onigiri/Order-Summary-Component]
-- Live Site URL: [https://kowai-onigiri.github.io/Order-Summary-Component/]
+- [Solution URL](https://github.com/kowai-onigiri/Order-Summary-Component)
+- [Live Site URL](https://kowai-onigiri.github.io/Order-Summary-Component/)
 
 ## My process
 
