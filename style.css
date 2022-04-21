@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 480px) {
+    body {
+        background-image: url(images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .card {
+        width: 85vw;
+        height: 85vh;
+    }
+
+    #img {
+        width: 85vw;
+        height: auto;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .bigText {
+        padding-bottom: 10px;
+    }
+
+    .plan {
+        width: 70vw;
+    }
+
+    .payBtn button {
+        width: 70vw;
+        height: 7vh;
+    }
+
+    .attribution {
+        bottom: 0;
+        width: 100%;
+        padding: 20px 0 5px 0;
+    }
+
+    #cancel {
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 481px) {
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size:  contain;
+    }
+
+    .card {
+        width: 400px;
+        height: 615px;
+    }
+
+
+    #img {
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .bigText {
+        padding-bottom: 15px;
+    }
+
+    .plan {
+        width: 90%;
+    }
+
+    .payBtn {
+        width: 90%;
+        
+    }
+
+    .payBtn button {
+        width: 100%;
+        height: 50px;
+    }
+
+    .attribution {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 10px 0 10px 0;
+    }
+
+
+}
+
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigText {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.smallText{
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    padding: 0 2px 20px 2px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 5px 15px 5px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.terms {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.planType {
+    font-weight: 700;
+}
+
+.price {
+    color:hsl(224, 23%, 55%);
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.change a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.change a:hover {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+.payBtn button {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+    box-shadow: 0px 15px 15px hsl(225, 100%, 94%);
+}
+
+.payBtn button:hover {
+    background-color: hsl(224, 23%, 55%);
+}
+
+.cancel {
+    padding-top: 25px;
+}
+
+.cancel a {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.cancel a:hover {
+    color:  hsl(223, 47%, 23%);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
